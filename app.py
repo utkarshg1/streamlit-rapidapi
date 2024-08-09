@@ -10,9 +10,9 @@ import logging
 load_dotenv()
 
 # Get secrets
-url = os.getenv("URL")
-api_key = os.getenv("API_KEY")
-host = os.getenv("HOST")
+url = st.secrets["URL"]
+api_key = st.secrets["API_KEY"]
+host = st.secrets["HOST"]
 
 # Ensure the logs directory exists
 log_dir = "logs"

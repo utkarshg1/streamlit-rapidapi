@@ -5,6 +5,4 @@ seaborn
 plotly
 nbformat
 streamlit
-ipykernel
-python-dotenv
 requests
